@@ -1,0 +1,195 @@
+<!-- Contenedor principal -->
+<section id="experience" class="max-w-5xl mx-auto px-6 py-28 text-white">
+  <!-- Encabezado -->
+  <div class="text-center mb-20">
+    <span
+      class="inline-block px-6 py-2 mb-6 text-lg font-medium border border-white/20 rounded-full"
+    >
+      {{ "EXPERIENCE.BADGE" | translate }}
+    </span>
+    <h2 class="text-6xl md:text-7xl font-extrabold leading-tight">
+      {{ "EXPERIENCE.TITLE_PREFIX" | translate }}
+      <span
+        class="bg-gradient-to-r from-purple-500 to-blue-500 bg-clip-text text-transparent"
+        >{{ "EXPERIENCE.TITLE_HIGHLIGHT" | translate }}</span
+      >
+    </h2>
+    <div
+      class="mt-6 w-32 h-1.5 bg-gradient-to-r from-purple-500 to-blue-500 mx-auto rounded-full"
+    ></div>
+  </div>
+
+  <!-- Cards -->
+  <div class="space-y-10">
+    <!-- Card Mapfre -->
+    <div class="bg-white/5 rounded-2xl p-8 shadow-2xl border border-white/10">
+      <div class="flex justify-between items-center mb-4">
+        <div class="flex items-center space-x-4">
+          <div
+            class="flex items-center justify-center w-12 h-12 rounded-full bg-gradient-to-r from-green-400 to-emerald-600 text-white text-2xl"
+          >
+            👜
+          </div>
+          <div>
+            <h3 class="text-3xl font-bold">
+              {{ "EXPERIENCE.MAPFRE.COMPANY" | translate }}
+            </h3>
+            <p class="text-lg text-purple-300 font-semibold">
+              {{ "EXPERIENCE.MAPFRE.POSITION" | translate }}
+            </p>
+            <p class="flex items-center text-white/60 text-sm mt-1">
+              <span class="mr-2">📍</span
+              >{{ "EXPERIENCE.MAPFRE.LOCATION" | translate }}
+            </p>
+          </div>
+        </div>
+        <span
+          class="px-4 py-1 rounded-full text-sm font-medium bg-green-600/30 text-green-400 border border-green-500/40"
+        >
+          {{ "EXPERIENCE.MAPFRE.PERIOD" | translate }}
+        </span>
+      </div>
+
+      <p class="text-white/80 mb-4">
+        {{ "EXPERIENCE.MAPFRE.DESCRIPTION" | translate }}
+      </p>
+
+      <div class="flex flex-wrap gap-3">
+        <span
+          class="px-4 py-1 rounded-full bg-green-900/40 text-green-300 text-sm"
+          >JavaScript</span
+        >
+        <span
+          class="px-4 py-1 rounded-full bg-green-900/40 text-green-300 text-sm"
+          >Angular</span
+        >
+        <span
+          class="px-4 py-1 rounded-full bg-green-900/40 text-green-300 text-sm"
+          >Node.js</span
+        >
+        <span
+          class="px-4 py-1 rounded-full bg-green-900/40 text-green-300 text-sm"
+          >TypeScript</span
+        >
+        <span
+          class="px-4 py-1 rounded-full bg-green-900/40 text-green-300 text-sm"
+          >AWS</span
+        >
+      </div>
+    </div>
+
+    <!-- Card Santander -->
+    <div class="bg-white/5 rounded-2xl p-8 shadow-2xl border border-white/10">
+      <div class="flex justify-between items-center mb-4">
+        <div class="flex items-center space-x-4">
+          <div
+            class="flex items-center justify-center w-12 h-12 rounded-full bg-gradient-to-r from-blue-400 to-indigo-600 text-white text-2xl"
+          >
+            🎓
+          </div>
+          <div>
+            <h3 class="text-3xl font-bold">
+              {{ "EXPERIENCE.SANTANDER.COMPANY" | translate }}
+            </h3>
+            <p class="text-lg text-purple-300 font-semibold">
+              {{ "EXPERIENCE.SANTANDER.POSITION" | translate }}
+            </p>
+            <p class="flex items-center text-white/60 text-sm mt-1">
+              <span class="mr-2">📍</span
+              >{{ "EXPERIENCE.SANTANDER.LOCATION" | translate }}
+            </p>
+          </div>
+        </div>
+        <span
+          class="px-4 py-1 rounded-full text-sm font-medium bg-blue-600/30 text-blue-400 border border-blue-500/40"
+        >
+          {{ "EXPERIENCE.SANTANDER.PERIOD" | translate }}
+        </span>
+      </div>
+
+      <p class="text-white/80 mb-4">
+        {{ "EXPERIENCE.SANTANDER.DESCRIPTION" | translate }}
+      </p>
+
+      <div class="flex flex-wrap gap-3">
+        <span
+          class="px-4 py-1 rounded-full bg-blue-900/40 text-blue-300 text-sm"
+          >Java</span
+        >
+        <span
+          class="px-4 py-1 rounded-full bg-blue-900/40 text-blue-300 text-sm"
+          >SQL</span
+        >
+        <span
+          class="px-4 py-1 rounded-full bg-blue-900/40 text-blue-300 text-sm"
+          >Data Analysis</span
+        >
+        <span
+          class="px-4 py-1 rounded-full bg-blue-900/40 text-blue-300 text-sm"
+          >CI/CD</span
+        >
+        <span
+          class="px-4 py-1 rounded-full bg-blue-900/40 text-blue-300 text-sm"
+          >Docker</span
+        >
+      </div>
+    </div>
+
+    <!-- Card Heartcoded -->
+    <div class="bg-white/5 rounded-2xl p-8 shadow-2xl border border-white/10">
+      <div class="flex justify-between items-center mb-4">
+        <div class="flex items-center space-x-4">
+          <div
+            class="flex items-center justify-center w-12 h-12 rounded-full bg-gradient-to-r from-pink-400 to-purple-600 text-white text-2xl"
+          >
+            💻
+          </div>
+          <div>
+            <h3 class="text-3xl font-bold">
+              {{ "EXPERIENCE.HEARTCODED.COMPANY" | translate }}
+            </h3>
+            <p class="text-lg text-purple-300 font-semibold">
+              {{ "EXPERIENCE.HEARTCODED.POSITION" | translate }}
+            </p>
+            <p class="flex items-center text-white/60 text-sm mt-1">
+              <span class="mr-2">📍</span
+              >{{ "EXPERIENCE.HEARTCODED.LOCATION" | translate }}
+            </p>
+          </div>
+        </div>
+        <span
+          class="px-4 py-1 rounded-full text-sm font-medium bg-pink-600/30 text-pink-400 border border-pink-500/40"
+        >
+          {{ "EXPERIENCE.HEARTCODED.PERIOD" | translate }}
+        </span>
+      </div>
+
+      <p class="text-white/80 mb-4">
+        {{ "EXPERIENCE.HEARTCODED.DESCRIPTION" | translate }}
+      </p>
+
+      <div class="flex flex-wrap gap-3">
+        <span
+          class="px-4 py-1 rounded-full bg-pink-900/40 text-pink-300 text-sm"
+          >HTML/CSS</span
+        >
+        <span
+          class="px-4 py-1 rounded-full bg-pink-900/40 text-pink-300 text-sm"
+          >JavaScript</span
+        >
+        <span
+          class="px-4 py-1 rounded-full bg-pink-900/40 text-pink-300 text-sm"
+          >Git</span
+        >
+        <span
+          class="px-4 py-1 rounded-full bg-pink-900/40 text-pink-300 text-sm"
+          >Angular</span
+        >
+        <span
+          class="px-4 py-1 rounded-full bg-pink-900/40 text-pink-300 text-sm"
+          >Bootstrap</span
+        >
+      </div>
+    </div>
+  </div>
+</section>

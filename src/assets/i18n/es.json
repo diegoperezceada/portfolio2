@@ -1,0 +1,80 @@
+{
+  "NAV": {
+    "HOME": "Inicio",
+    "ABOUT": "Sobre mí",
+    "EXPERIENCE": "Experiencia",
+    "EDUCATION": "Educación",
+    "SKILLS": "Habilidades",
+    "CONTACT": "Contacto",
+    "SWITCH_TO_EN": "English",
+    "SWITCH_TO_ES": "Español"
+  },
+
+  "MAIN": {
+    "TITLE": "Full Stack Developer",
+    "SUBTITLE": "De la idea a la pantalla, sin complicaciones.",
+    "CTA_TALK": "Hablemos",
+    "CTA_CV": "Descargar CV",
+    "ALT_AVATAR": "Foto de Diego Pérez"
+  },
+
+  "ABOUT": {
+    "BADGE": "Sobre mí",
+    "TITLE_PREFIX": "Pasión por la",
+    "TITLE_HIGHLIGHT": "Innovación",
+    "MY_STORY_TITLE": "Mi Historia",
+    "MY_STORY_TEXT": "Mi viaje comenzó en el prestigioso <span class='text-purple-400 font-semibold'>Immune Technology Institute</span>, donde desarrollé una base sólida en tecnologías modernas. Desde entonces, he evolucionado a través de experiencias enriquecedoras en <span class='text-blue-400 font-semibold'>Hertcode</span>, <span class='text-green-400 font-semibold'>Santander</span>, y actualmente en <span class='text-pink-400 font-semibold'>Mapfre</span>.",
+    "STATS_YEARS": "Años de Experiencia",
+    "STATS_PROJECTS": "Proyectos Completados",
+    "STATS_TECHNOLOGIES": "Tecnologías Dominadas",
+    "STATS_DEDICATION": "Dedicación",
+    "MY_APPROACH_TITLE": "Mi Enfoque",
+    "MY_APPROACH_TEXT": "Uno diseño y código para crear soluciones digitales que no solo funcionen a la perfección, sino que también ofrezcan una experiencia fluida, atractiva y con verdadero valor para quienes las usan cada día."
+  },
+
+  "EXPERIENCE": {
+    "BADGE": "Trayectoria",
+    "TITLE_PREFIX": "Mi",
+    "TITLE_HIGHLIGHT": "Experiencia",
+    "MAPFRE": {
+      "COMPANY": "Mapfre",
+      "POSITION": "Desarrollador Full Stack",
+      "LOCATION": "Madrid, España",
+      "PERIOD": "Marzo 2024 - Actual",
+      "DESCRIPTION": "Desarrollo y mantenimiento de aplicaciones empresariales críticas en el sector asegurador, implementando soluciones tecnológicas innovadoras que impactan a millones de usuarios."
+    },
+    "SANTANDER": {
+      "COMPANY": "Banco Santander",
+      "POSITION": "Becario de Desarrollo",
+      "LOCATION": "Madrid, España",
+      "PERIOD": "Mayo 2023 - Diciembre 2023",
+      "DESCRIPTION": "Participación activa en proyectos de transformación digital, colaborando en el desarrollo de soluciones fintech de vanguardia."
+    },
+    "HEARTCODED": {
+      "COMPANY": "Heartcoded",
+      "POSITION": "Desarrollador en Prácticas",
+      "LOCATION": "Madrid, España",
+      "PERIOD": "Marzo 2023 - Mayo 2023",
+      "DESCRIPTION": "Primeras experiencias profesionales en desarrollo web, donde adquirí las bases fundamentales y aprendí las mejores prácticas de la industria tecnológica."
+    }
+  },
+
+  "EDUCATION": {
+    "BADGE": "Formación",
+    "TITLE_PREFIX": "Mi",
+    "TITLE_HIGHLIGHT": "Educación",
+    "IMMUNE": {
+      "INSTITUTION": "Immune Technology Institute",
+      "DEGREE": "Desarrollo de Software Full Stack",
+      "PERIOD": "2020 – 2023",
+      "DESCRIPTION": "Formación intensiva y práctica en las tecnologías más demandadas del mercado, incluyendo desarrollo full stack, metodologías ágiles y las últimas tendencias en arquitectura de software.",
+      "CERTIFICATE_BTN": "Ver Certificado"
+    },
+    "AREAS": {
+      "WEB": "Web Development",
+      "DATABASE": "Bases de Datos",
+      "MOBILE": "Mobile Development",
+      "CLOUD": "Cloud"
+    }
+  }
+}

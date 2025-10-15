@@ -1,0 +1,46 @@
+<div class="min-h-screen w-full flex flex-col items-center justify-center px-4">
+  <div
+    class="relative w-full max-w-6xl rounded-3xl shadow-2xl backdrop-blur-xl border border-white/20 p-16 flex flex-col items-center"
+  >
+    <div class="w-80 h-80 mb-12">
+      <img
+        src="assets/img/diego.webp"
+        [alt]="'MAIN.ALT_AVATAR' | translate"
+        class="w-full h-full object-cover rounded-2xl"
+      />
+    </div>
+
+    <h1
+      class="w-full text-center break-words text-5xl md:text-7xl font-extrabold leading-tight md:leading-snug bg-gradient-to-r from-[#ae7ffb] to-[#3fcef7] bg-clip-text text-transparent mb-6 tracking-tight"
+    >
+      Diego Pérez Ceada
+    </h1>
+    <span
+      class="inline-block mt-2 mb-8 px-12 py-4 rounded-full text-[#a7acff] text-2xl font-semibold shadow transition"
+    >
+      {{ 'MAIN.TITLE' | translate }}
+    </span>
+
+    <p
+      class="text-gray-200 text-2xl md:text-3xl text-center max-w-4xl mb-4 font-medium"
+    >
+      {{ 'MAIN.SUBTITLE' | translate }}
+    </p>
+
+    <div class="flex flex-col md:flex-row gap-8 mt-6 w-full justify-center">
+      <a
+        href="#contact"
+        class="flex items-center justify-center gap-4 w-full md:w-auto px-14 py-5 rounded-xl border-2 border-[#6e6fee] text-[#bfcbff] text-xl font-bold shadow-md hover:bg-[#5032b6]/40 hover:text-white transition"
+      >
+        {{ 'MAIN.CTA_TALK' | translate }}
+      </a>
+      <a
+        [href]="'assets/CV-Diego-Perez-Ceada-' + (currentLanguage === 'es' ? 'ES' : 'EN') + '.pdf'"
+        download
+        class="flex items-center justify-center gap-4 w-full md:w-auto px-14 py-5 rounded-xl border-2 border-[#6e6fee] text-[#bfcbff] text-xl font-bold shadow-md hover:bg-[#5032b6]/40 hover:text-white transition"
+      >
+        {{ 'MAIN.CTA_CV' | translate }}
+      </a>
+    </div>
+  </div>
+</div>

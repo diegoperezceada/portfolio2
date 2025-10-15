@@ -1,0 +1,80 @@
+{
+  "NAV": {
+    "HOME": "Home",
+    "ABOUT": "About",
+    "EXPERIENCE": "Experience",
+    "EDUCATION": "Education",
+    "SKILLS": "Skills",
+    "CONTACT": "Contact",
+    "SWITCH_TO_EN": "English",
+    "SWITCH_TO_ES": "Español"
+  },
+
+  "MAIN": {
+    "TITLE": "Full Stack Developer",
+    "SUBTITLE": "From idea to screen, without complications.",
+    "CTA_TALK": "Let's Talk",
+    "CTA_CV": "Download CV",
+    "ALT_AVATAR": "Diego Pérez's Photo"
+  },
+
+  "ABOUT": {
+    "BADGE": "About Me",
+    "TITLE_PREFIX": "Passion for",
+    "TITLE_HIGHLIGHT": "Innovation",
+    "MY_STORY_TITLE": "My Story",
+    "MY_STORY_TEXT": "My journey began at the prestigious <span class='text-purple-400 font-semibold'>Immune Technology Institute</span>, where I developed a solid foundation in modern technologies. Since then, I have evolved through enriching experiences at <span class='text-blue-400 font-semibold'>Hertcode</span>, <span class='text-green-400 font-semibold'>Santander</span>, and currently at <span class='text-pink-400 font-semibold'>Mapfre</span>.",
+    "STATS_YEARS": "Years of Experience",
+    "STATS_PROJECTS": "Projects Completed",
+    "STATS_TECHNOLOGIES": "Technologies Mastered",
+    "STATS_DEDICATION": "Dedication",
+    "MY_APPROACH_TITLE": "My Approach",
+    "MY_APPROACH_TEXT": "I combine design and code to create digital solutions that not only work flawlessly, but also deliver a smooth, engaging experience with real value for those who use them every day."
+  },
+
+  "EXPERIENCE": {
+    "BADGE": "Career Path",
+    "TITLE_PREFIX": "My",
+    "TITLE_HIGHLIGHT": "Experience",
+    "MAPFRE": {
+      "COMPANY": "Mapfre",
+      "POSITION": "Full Stack Developer",
+      "LOCATION": "Madrid, Spain",
+      "PERIOD": "March 2024 - Present",
+      "DESCRIPTION": "Development and maintenance of critical enterprise applications in the insurance sector, implementing innovative technological solutions that impact millions of users."
+    },
+    "SANTANDER": {
+      "COMPANY": "Banco Santander",
+      "POSITION": "Development Intern",
+      "LOCATION": "Madrid, Spain",
+      "PERIOD": "May 2023 - December 2023",
+      "DESCRIPTION": "Active participation in digital transformation projects, collaborating on the development of cutting-edge fintech solutions."
+    },
+    "HEARTCODED": {
+      "COMPANY": "Heartcoded",
+      "POSITION": "Internship Developer",
+      "LOCATION": "Madrid, Spain",
+      "PERIOD": "March 2023 - May 2023",
+      "DESCRIPTION": "First professional experiences in web development, where I acquired fundamental basics and learned best practices of the technology industry."
+    }
+  },
+
+  "EDUCATION": {
+    "BADGE": "Education",
+    "TITLE_PREFIX": "My",
+    "TITLE_HIGHLIGHT": "Education",
+    "IMMUNE": {
+      "INSTITUTION": "Immune Technology Institute",
+      "DEGREE": "Full Stack Software Development",
+      "PERIOD": "2020 – 2023",
+      "DESCRIPTION": "Intensive and practical training in the most in-demand technologies in the market, including full stack development, agile methodologies and the latest trends in software architecture.",
+      "CERTIFICATE_BTN": "View Certificate"
+    },
+    "AREAS": {
+      "WEB": "Web Development",
+      "DATABASE": "Databases",
+      "MOBILE": "Mobile Development",
+      "CLOUD": "Cloud"
+    }
+  }
+}
