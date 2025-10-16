@@ -1,4 +1,4 @@
-<section id="education" class="max-w-5xl mx-auto px-6 py-28 text-white">
+<section id="education" class="max-w-7xl mx-auto px-6 py-28 text-white">
   <!-- Encabezado -->
   <div class="text-center mb-20">
     <span
@@ -6,7 +6,7 @@
     >
       {{ "EDUCATION.BADGE" | translate }}
     </span>
-    <h2 class="text-6xl md:text-7xl font-extrabold leading-tight">
+    <h2 class="text-4xl md:text-7xl font-extrabold leading-tight">
       {{ "EDUCATION.TITLE_PREFIX" | translate }}
       <span
         class="bg-gradient-to-r from-orange-400 to-pink-500 bg-clip-text text-transparent"
@@ -18,9 +18,9 @@
     ></div>
   </div>
 
-  <div class="space-y-16">
+  <div class="grid md:grid-cols-2 gap-12">
     <div
-      class="bg-white/5 rounded-2xl p-10 shadow-2xl border border-white/10 grid md:grid-cols-2 gap-10"
+      class="bg-white/5 p-10 shadow-2xl backdrop-blur-md border border-white/10 rounded-3xl md:col-span-2 hover:bg-white/10 transition-all duration-300 hover:scale-[1.02] hover:shadow-2xl hover:shadow-purple-500/20"
     >
       <!-- Columna izquierda -->
       <div>
@@ -28,7 +28,7 @@
           <div
             class="flex items-center justify-center w-16 h-16 rounded-full bg-gradient-to-r from-blue-400 to-blue-700 text-white text-3xl"
           >
-            🎓
+            <lucide-icon name="graduation-cap"></lucide-icon>
           </div>
           <div>
             <h3 class="text-3xl font-bold text">
@@ -49,7 +49,7 @@
         </p>
 
         <button
-          class="inline-flex items-center px-6 py-3 rounded-full bg-blue-400 hover:bg-blue-600 text-white font-semibold transition-colors duration-300"
+          class="inline-flex m-4 items-center px-6 py-3 rounded-full bg-blue-400 hover:bg-blue-600 text-white font-semibold transition-colors duration-300"
         >
           <a
             target="_blank"
@@ -82,7 +82,7 @@
           <div
             class="flex items-center justify-center w-12 h-12 rounded-xl bg-gradient-to-r from-blue-400 to-cyan-500 mb-3"
           >
-            🌐
+            <lucide-icon name="globe"></lucide-icon>
           </div>
           <p class="text-lg font-medium">
             {{ "EDUCATION.AREAS.WEB" | translate }}
@@ -95,7 +95,7 @@
           <div
             class="flex items-center justify-center w-12 h-12 rounded-xl bg-gradient-to-r from-green-400 to-emerald-500 mb-3"
           >
-            <img src="assets/icons/bbdd.png" alt="" />
+            <lucide-icon name="database"></lucide-icon>
           </div>
           <p class="text-lg font-medium">
             {{ "EDUCATION.AREAS.DATABASE" | translate }}
@@ -108,7 +108,7 @@
           <div
             class="flex items-center justify-center w-12 h-12 rounded-xl bg-gradient-to-r from-pink-400 to-purple-500 mb-3"
           >
-            📱
+            <lucide-icon name="smartphone"></lucide-icon>
           </div>
           <p class="text-lg font-medium">
             {{ "EDUCATION.AREAS.MOBILE" | translate }}
@@ -121,7 +121,7 @@
           <div
             class="flex items-center justify-center w-12 h-12 rounded-xl bg-gradient-to-r from-orange-400 to-red-500 mb-3"
           >
-            ☁️
+            <lucide-icon name="cloud"></lucide-icon>
           </div>
           <p class="text-lg font-medium">
             {{ "EDUCATION.AREAS.CLOUD" | translate }}

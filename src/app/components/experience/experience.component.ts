@@ -1,10 +1,11 @@
 import { Component } from '@angular/core';
 import { TranslateModule, TranslateService } from '@ngx-translate/core';
+import { LucideAngularModule } from "lucide-angular";
 
 @Component({
   selector: 'app-experience',
   standalone: true,
-  imports: [TranslateModule],
+  imports: [TranslateModule, LucideAngularModule],
   templateUrl: './experience.component.html',
   styleUrl: './experience.component.css'
 })

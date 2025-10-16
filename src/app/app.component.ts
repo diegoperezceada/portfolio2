@@ -1,12 +1,12 @@
-import { Component, Inject, PLATFORM_ID } from '@angular/core';
+import { Component } from '@angular/core';
 import { TranslateService } from '@ngx-translate/core';
-import { isPlatformBrowser } from '@angular/common';
 import { HeaderComponent } from './components/header/header.component';
 import { MainComponent } from './components/main/main.component';
 import { AboutComponent } from './components/about/about.component';
 import { ExperienceComponent } from './components/experience/experience.component';
 import { EducationComponent } from './components/education/education.component';
 import { CertificationsComponent } from "./components/certifications/certifications.component";
+import { ContactComponent } from "./components/contact/contact.component";
 
 @Component({
   selector: 'app-root',
@@ -17,7 +17,8 @@ import { CertificationsComponent } from "./components/certifications/certificati
     AboutComponent,
     ExperienceComponent,
     EducationComponent,
-    CertificationsComponent
+    CertificationsComponent,
+    ContactComponent
 ],
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css'],
