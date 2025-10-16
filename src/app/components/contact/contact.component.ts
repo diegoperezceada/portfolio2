@@ -16,9 +16,9 @@ export class ContactComponent {
   mensaje = '';
 
   enviarCorreo() {
-    const destinatario = 'contacto@ejemplo.com';
+    const destinatario = 'diegoperezceada@gmail.com';
     const asunto = `Mensaje de ${this.nombre}`;
-    const cuerpo = `Nombre: ${this.nombre}%0D%0ACorreo: ${this.correo}%0D%0A%0D%0AMensaje:%0D%0A${this.mensaje}`;
+    const cuerpo = this.mensaje;
     const mailto = `mailto:${destinatario}?subject=${encodeURIComponent(
       asunto
     )}&body=${cuerpo}`;
