@@ -1,12 +1,6 @@
 <main id="contact" class="max-w-7xl mx-auto px-6 py-28 text-white">
   <!-- Title -->
   <div class="text-center mb-20">
-    <span
-      class="inline-block px-6 py-2 mb-6 text-lg font-medium border border-white/20 rounded-full"
-    >
-      Ponte en contacto
-    </span>
-
     <h2 class="text-4xl md:text-7xl font-extrabold leading-tight mb-4">
       Ponte en
       <span
@@ -32,54 +26,59 @@
   >
     <div class="grid md:grid-cols-2 gap-12">
       <!-- Columna izquierda: Formulario -->
-<form class="space-y-6" (ngSubmit)="enviarCorreo()" #contactForm="ngForm">
-  <div class="flex flex-col gap-6">
-    <div>
-      <label class="block text-white/80 mb-2 text-sm font-medium">Nombre</label>
-      <input
-        type="text"
-        name="nombre"
-        [(ngModel)]="nombre"
-        required
-        class="w-full rounded-lg bg-white/10 border border-white/20 text-white px-4 py-3 placeholder-white/40 focus:outline-none focus:ring-2 focus:ring-pink-500"
-        placeholder="Tu nombre"
-      />
-    </div>
+      <form class="space-y-6" (ngSubmit)="enviarCorreo()" #contactForm="ngForm">
+        <div class="flex flex-col gap-6">
+          <div>
+            <label class="block text-white/80 mb-2 text-sm font-medium"
+              >Nombre</label
+            >
+            <input
+              type="text"
+              name="nombre"
+              [(ngModel)]="nombre"
+              required
+              class="w-full rounded-lg bg-white/10 border border-white/20 text-white px-4 py-3 placeholder-white/40 focus:outline-none focus:ring-2 focus:ring-pink-500"
+              placeholder="Tu nombre"
+            />
+          </div>
 
-    <div>
-      <label class="block text-white/80 mb-2 text-sm font-medium">Correo electrónico</label>
-      <input
-        type="email"
-        name="correo"
-        [(ngModel)]="correo"
-        required
-        class="w-full rounded-lg bg-white/10 border border-white/20 text-white px-4 py-3 placeholder-white/40 focus:outline-none focus:ring-2 focus:ring-pink-500"
-        placeholder="tuemail@ejemplo.com"
-      />
-    </div>
+          <div>
+            <label class="block text-white/80 mb-2 text-sm font-medium"
+              >Correo electrónico</label
+            >
+            <input
+              type="email"
+              name="correo"
+              [(ngModel)]="correo"
+              required
+              class="w-full rounded-lg bg-white/10 border border-white/20 text-white px-4 py-3 placeholder-white/40 focus:outline-none focus:ring-2 focus:ring-pink-500"
+              placeholder="tuemail@ejemplo.com"
+            />
+          </div>
 
-    <div>
-      <label class="block text-white/80 mb-2 text-sm font-medium">Mensaje</label>
-      <textarea
-        rows="5"
-        name="mensaje"
-        [(ngModel)]="mensaje"
-        required
-        class="w-full rounded-lg bg-white/10 border border-white/20 text-white px-4 py-3 placeholder-white/40 focus:outline-none focus:ring-2 focus:ring-pink-500"
-        placeholder="Escribe tu mensaje..."
-      ></textarea>
-    </div>
-  </div>
+          <div>
+            <label class="block text-white/80 mb-2 text-sm font-medium"
+              >Mensaje</label
+            >
+            <textarea
+              rows="5"
+              name="mensaje"
+              [(ngModel)]="mensaje"
+              required
+              class="w-full rounded-lg bg-white/10 border border-white/20 text-white px-4 py-3 placeholder-white/40 focus:outline-none focus:ring-2 focus:ring-pink-500"
+              placeholder="Escribe tu mensaje..."
+            ></textarea>
+          </div>
+        </div>
 
-  <button
-    type="submit"
-    class="flex items-center justify-center gap-2 w-full bg-gradient-to-r from-blue-500 to-purple-600 hover:from-blue-600 hover:to-purple-700 text-white px-6 py-3 rounded-lg shadow-lg shadow-blue-500/30 transition-all font-semibold"
-  >
-    Enviar mensaje
-    <lucide-icon name="send" class="w-4 h-4"></lucide-icon>
-  </button>
-</form>
-
+        <button
+          type="submit"
+          class="flex items-center justify-center gap-2 w-full bg-gradient-to-r from-blue-500 to-purple-600 hover:from-blue-600 hover:to-purple-700 text-white px-6 py-3 rounded-lg shadow-lg shadow-blue-500/30 transition-all font-semibold"
+        >
+          Enviar mensaje
+          <lucide-icon name="send" class="w-4 h-4"></lucide-icon>
+        </button>
+      </form>
 
       <!-- Columna derecha: Información -->
       <div class="flex flex-col justify-center space-y-8">
@@ -97,7 +96,6 @@
 
             <p class="text-white/70 text-sm">diegoperezceada&#64;gmail.com</p>
           </div>
-
         </div>
 
         <div

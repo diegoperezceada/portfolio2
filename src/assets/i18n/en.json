@@ -4,6 +4,7 @@
     "ABOUT": "About",
     "EXPERIENCE": "Experience",
     "EDUCATION": "Education",
+    "CERTIFICATIONS": "Certifications",
     "SKILLS": "Skills",
     "CONTACT": "Contact",
     "SWITCH_TO_EN": "English",
@@ -75,6 +76,33 @@
       "DATABASE": "Databases",
       "MOBILE": "Mobile Development",
       "CLOUD": "Cloud"
+    }
+  },
+
+  "CERTIFICATIONS": {
+    "TITLE_PREFIX": "My",
+    "TITLE_HIGHLIGHT": "Certifications",
+
+    "AWS": {
+      "TITLE": "AWS Certified Solutions Architect",
+      "YEAR": "2024",
+      "ISSUER": "Amazon Web Services",
+      "DESCRIPTION": "This course covers the fundamental concepts of cloud computing and is designed for absolute beginners. Learn the basics of Amazon Web Services (AWS), the world's leading cloud computing platform. Gain an understanding of the essential systems on which the cloud is built, including storage, networking, and compute. Develop hands-on skills using core AWS services and build knowledge from beginner to advanced concepts.",
+      "SKILLS": {
+        "CLOUD": "Cloud Architecture",
+        "SECURITY": "Security",
+        "SCALABILITY": "Scalability",
+        "COST": "Cost Optimization"
+      },
+      "BUTTONS": {
+        "VIEW": "View Certificate",
+        "DOWNLOAD": "Download PDF"
+      }
+    },
+
+    "COMING_SOON": {
+      "TITLE": "More certifications coming soon",
+      "DESCRIPTION": "Currently preparing new professional certifications"
     }
   }
 }

@@ -29,6 +29,7 @@ export class HeaderComponent implements OnInit, AfterViewInit, OnDestroy {
     { id: 'about', label: 'NAV.ABOUT', path: 'about' },
     { id: 'experience', label: 'NAV.EXPERIENCE', path: 'experience' },
     { id: 'education', label: 'NAV.EDUCATION', path: 'education' },
+    { id: 'certifications', label: 'NAV.CERTIFICATIONS', path: 'certifications' },
     { id: 'skills', label: 'NAV.SKILLS', path: 'skills' },
     { id: 'contact', label: 'NAV.CONTACT', path: 'contact' },
   ];
