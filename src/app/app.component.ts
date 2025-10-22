@@ -8,7 +8,7 @@ import { EducationComponent } from './components/education/education.component';
 import { CertificationsComponent } from "./components/certifications/certifications.component";
 import { ContactComponent } from "./components/contact/contact.component";
 import { SkillsComponent } from "./components/skills/skills.component";
-
+import { Analytics } from "@vercel/analytics/next"
 @Component({
   selector: 'app-root',
   standalone: true,
@@ -20,7 +20,7 @@ import { SkillsComponent } from "./components/skills/skills.component";
     EducationComponent,
     CertificationsComponent,
     ContactComponent,
-    SkillsComponent
+    SkillsComponent,
 ],
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css'],
