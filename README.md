@@ -19,9 +19,7 @@
 
 - ⚡ **Angular 17 standalone** — sin módulos, con routing dinámico.
 - 🎨 **Tailwind CSS v4** — diseño limpio y totalmente responsive.
-- 💡 **Animaciones suaves** con Framer Motion y utilidades CSS.
 - 🧩 **Componentes reutilizables** para proyectos, experiencia y contacto.
-- 🌗 **Modo claro/oscuro** persistente.
 - 🧭 **Scroll animado** entre secciones (Inicio, Sobre mí, Proyectos, Contacto).
 - 📱 **Optimización SEO** y PWA ready.
 
