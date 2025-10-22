@@ -1,8 +1,7 @@
 <!-- Contenedor principal -->
-<section id="experience" class="max-w-7xl mx-auto px-6 py-28 text-white">
+<section id="experience" class="max-w-7xl mx-auto mt-0 py-28 text-white">
   <!-- Encabezado -->
   <div class="text-center mb-20">
-
     <h2 class="text-6xl md:text-7xl font-extrabold leading-tight">
       {{ "EXPERIENCE.TITLE_PREFIX" | translate }}
       <span
@@ -18,171 +17,195 @@
   <!-- Cards -->
   <div class="grid md:grid-cols-2 gap-12">
     <!-- Card Mapfre -->
-    <div class="bg-white/5 rounded-2xl p-8 shadow-2xl border border-white/10 md:col-span-2 hover:bg-white/10 transition-all duration-300 hover:scale-[1.02] hover:shadow-2xl hover:shadow-purple-500/20">
-      <div class="flex justify-between items-center mb-4">
+    <div
+      class="bg-white/5 rounded-2xl p-8 shadow-2xl border border-white/10 md:col-span-2 hover:bg-white/10 transition-all duration-300 hover:scale-[1.02] hover:shadow-2xl hover:shadow-purple-500/20"
+    >
+      <!-- Encabezado -->
+      <div
+        class="flex flex-col sm:flex-row sm:justify-between sm:items-center mb-6 gap-4"
+      >
         <div class="flex items-center gap-4">
           <div
-            class="flex items-center justify-center w-12 h-12 rounded-full bg-gradient-to-r from-red-400 to-red-600 text-white text-2xl"
+            class="flex items-center justify-center w-12 h-12 rounded-full bg-gradient-to-r from-red-400 to-red-600 text-white text-2xl flex-shrink-0"
           >
             <lucide-icon name="cross"></lucide-icon>
           </div>
           <div>
-            <h3 class="text-3xl font-bold">
+            <h3 class="text-2xl md:text-3xl font-bold leading-tight">
               {{ "EXPERIENCE.MAPFRE.COMPANY" | translate }}
             </h3>
-            <p class="text-lg text-purple-300 font-semibold">
+            <p class="text-base md:text-lg text-purple-300 font-semibold">
               {{ "EXPERIENCE.MAPFRE.POSITION" | translate }}
             </p>
             <p class="flex items-center text-white/60 text-sm mt-1">
-              <span class="mr-2">📍</span
-              >{{ "EXPERIENCE.MAPFRE.LOCATION" | translate }}
+              <span class="mr-2">📍</span>
+              {{ "EXPERIENCE.MAPFRE.LOCATION" | translate }}
             </p>
           </div>
         </div>
+
         <span
-          class="px-4 py-1 rounded-full text-sm font-medium bg-red-600/30 text-red-400 border border-red-500/40"
+          class="self-start sm:self-center px-4 py-1 rounded-full text-xs sm:text-sm font-medium bg-red-600/30 text-white border border-red-500/40 whitespace-nowrap"
         >
           {{ "EXPERIENCE.MAPFRE.PERIOD" | translate }}
         </span>
       </div>
 
-      <p class="text-white/80 mb-4">
+      <!-- Descripción -->
+      <p class="text-white/80 mb-4 text-sm sm:text-base leading-relaxed">
         {{ "EXPERIENCE.MAPFRE.DESCRIPTION" | translate }}
       </p>
 
-      <div class="flex flex-wrap gap-3">
+      <!-- Habilidades -->
+      <div class="flex flex-wrap gap-2 sm:gap-3">
         <span
-          class="px-4 py-1 rounded-full bg-red-900/40 text-red-300 text-sm"
+          class="px-3 py-1 rounded-full bg-red-900/40 text-white text-xs sm:text-sm"
           >JavaScript</span
         >
         <span
-          class="px-4 py-1 rounded-full bg-red-900/40 text-red-300 text-sm"
+          class="px-3 py-1 rounded-full bg-red-900/40 text-white text-xs sm:text-sm"
           >Angular</span
         >
         <span
-          class="px-4 py-1 rounded-full bg-red-900/40 text-red-300 text-sm"
+          class="px-3 py-1 rounded-full bg-red-900/40 text-white text-xs sm:text-sm"
           >Node.js</span
         >
         <span
-          class="px-4 py-1 rounded-full bg-red-900/40 text-red-300 text-sm"
+          class="px-3 py-1 rounded-full bg-red-900/40 text-white text-xs sm:text-sm"
           >TypeScript</span
         >
         <span
-          class="px-4 py-1 rounded-full bg-red-900/40 text-red-300 text-sm"
+          class="px-3 py-1 rounded-full bg-red-900/40 text-white text-xs sm:text-sm"
           >AWS</span
         >
       </div>
     </div>
 
     <!-- Card Santander -->
-    <div class="bg-white/5 rounded-2xl p-8 shadow-2xl border border-white/10 md:col-span-2 hover:bg-white/10 transition-all duration-300 hover:scale-[1.02] hover:shadow-2xl hover:shadow-purple-500/20">
-      <div class="flex justify-between items-center mb-4">
+    <div
+      class="bg-white/5 rounded-2xl p-8 shadow-2xl border border-white/10 md:col-span-2 hover:bg-white/10 transition-all duration-300 hover:scale-[1.02] hover:shadow-2xl hover:shadow-purple-500/20"
+    >
+      <!-- Encabezado -->
+      <div
+        class="flex flex-col sm:flex-row sm:justify-between sm:items-center mb-6 gap-4"
+      >
         <div class="flex items-center gap-4">
           <div
-            class="flex items-center justify-center w-12 h-12 rounded-full bg-gradient-to-r from-blue-400 to-indigo-600 text-white text-2xl"
+            class="flex items-center justify-center w-12 h-12 rounded-full bg-gradient-to-r from-red-400 to-red-600 text-white text-2xl flex-shrink-0"
           >
             <lucide-icon name="landmark"></lucide-icon>
           </div>
           <div>
-            <h3 class="text-3xl font-bold">
+            <h3 class="text-2xl md:text-3xl font-bold leading-tight">
               {{ "EXPERIENCE.SANTANDER.COMPANY" | translate }}
             </h3>
-            <p class="text-lg text-purple-300 font-semibold">
+            <p class="text-base md:text-lg text-purple-300 font-semibold">
               {{ "EXPERIENCE.SANTANDER.POSITION" | translate }}
             </p>
             <p class="flex items-center text-white/60 text-sm mt-1">
-              <span class="mr-2">📍</span
-              >{{ "EXPERIENCE.SANTANDER.LOCATION" | translate }}
+              <span class="mr-2">📍</span>
+              {{ "EXPERIENCE.SANTANDER.LOCATION" | translate }}
             </p>
           </div>
         </div>
+
         <span
-          class="px-4 py-1 rounded-full text-sm font-medium bg-blue-600/30 text-blue-400 border border-blue-500/40"
+          class="self-start sm:self-center px-4 py-1 rounded-full text-xs sm:text-sm font-medium bg-red-600/30 text-white border border-red-500/40 whitespace-nowrap"
         >
           {{ "EXPERIENCE.SANTANDER.PERIOD" | translate }}
         </span>
       </div>
 
-      <p class="text-white/80 mb-4">
+      <!-- Descripción -->
+      <p class="text-white/80 mb-4 text-sm sm:text-base leading-relaxed">
         {{ "EXPERIENCE.SANTANDER.DESCRIPTION" | translate }}
       </p>
 
-      <div class="flex flex-wrap gap-3">
+      <!-- Habilidades -->
+      <div class="flex flex-wrap gap-2 sm:gap-3">
         <span
-          class="px-4 py-1 rounded-full bg-blue-900/40 text-blue-300 text-sm"
+          class="px-3 py-1 rounded-full bg-red-900/40 text-white text-xs sm:text-sm"
           >Java</span
         >
         <span
-          class="px-4 py-1 rounded-full bg-blue-900/40 text-blue-300 text-sm"
+          class="px-3 py-1 rounded-full bg-red-900/40 text-white text-xs sm:text-sm"
           >SQL</span
         >
         <span
-          class="px-4 py-1 rounded-full bg-blue-900/40 text-blue-300 text-sm"
+          class="px-3 py-1 rounded-full bg-red-900/40 text-white text-xs sm:text-sm"
           >Data Analysis</span
         >
         <span
-          class="px-4 py-1 rounded-full bg-blue-900/40 text-blue-300 text-sm"
+          class="px-3 py-1 rounded-full bg-red-900/40 text-white text-xs sm:text-sm"
           >CI/CD</span
         >
         <span
-          class="px-4 py-1 rounded-full bg-blue-900/40 text-blue-300 text-sm"
+          class="px-3 py-1 rounded-full bg-red-900/40 text-white text-xs sm:text-sm"
           >Docker</span
         >
       </div>
     </div>
 
     <!-- Card Heartcoded -->
-    <div class="bg-white/5 rounded-2xl p-8 shadow-2xl border border-white/10 md:col-span-2 hover:bg-white/10 transition-all duration-300 hover:scale-[1.02] hover:shadow-2xl hover:shadow-purple-500/20">
-      <div class="flex justify-between items-center mb-4">
+    <div
+      class="bg-white/5 rounded-2xl p-8 shadow-2xl border border-white/10 md:col-span-2 hover:bg-white/10 transition-all duration-300 hover:scale-[1.02] hover:shadow-2xl hover:shadow-purple-500/20"
+    >
+      <!-- Encabezado -->
+      <div
+        class="flex flex-col sm:flex-row sm:justify-between sm:items-center mb-6 gap-4"
+      >
         <div class="flex items-center gap-4">
           <div
-            class="flex items-center justify-center w-12 h-12 rounded-full bg-gradient-to-r from-pink-400 to-purple-600 text-white text-2xl"
+            class="flex items-center justify-center w-12 h-12 rounded-full bg-gradient-to-r from-blue-400 to-blue-700 text-white text-2xl flex-shrink-0"
           >
             <lucide-icon name="laptop"></lucide-icon>
           </div>
           <div>
-            <h3 class="text-3xl font-bold">
+            <h3 class="text-2xl md:text-3xl font-bold leading-tight">
               {{ "EXPERIENCE.HEARTCODED.COMPANY" | translate }}
             </h3>
-            <p class="text-lg text-purple-300 font-semibold">
+            <p class="text-base md:text-lg text-purple-300 font-semibold">
               {{ "EXPERIENCE.HEARTCODED.POSITION" | translate }}
             </p>
             <p class="flex items-center text-white/60 text-sm mt-1">
-              <span class="mr-2">📍</span
-              >{{ "EXPERIENCE.HEARTCODED.LOCATION" | translate }}
+              <span class="mr-2">📍</span>
+              {{ "EXPERIENCE.HEARTCODED.LOCATION" | translate }}
             </p>
           </div>
         </div>
+
         <span
-          class="px-4 py-1 rounded-full text-sm font-medium bg-pink-600/30 text-pink-400 border border-pink-500/40"
+          class="self-start sm:self-center px-4 py-1 rounded-full text-xs sm:text-sm font-medium bg-blue-600/30 text-white border border-blue-500/40 whitespace-nowrap"
         >
           {{ "EXPERIENCE.HEARTCODED.PERIOD" | translate }}
         </span>
       </div>
 
-      <p class="text-white/80 mb-4">
+      <!-- Descripción -->
+      <p class="text-white/80 mb-4 text-sm sm:text-base leading-relaxed">
         {{ "EXPERIENCE.HEARTCODED.DESCRIPTION" | translate }}
       </p>
 
-      <div class="flex flex-wrap gap-3">
+      <!-- Habilidades -->
+      <div class="flex flex-wrap gap-2 sm:gap-3">
         <span
-          class="px-4 py-1 rounded-full bg-pink-900/40 text-pink-300 text-sm"
+          class="px-3 py-1 rounded-full bg-blue-900/40 text-white text-xs sm:text-sm"
           >HTML/CSS</span
         >
         <span
-          class="px-4 py-1 rounded-full bg-pink-900/40 text-pink-300 text-sm"
+          class="px-3 py-1 rounded-full bg-blue-900/40 text-white text-xs sm:text-sm"
           >JavaScript</span
         >
         <span
-          class="px-4 py-1 rounded-full bg-pink-900/40 text-pink-300 text-sm"
+          class="px-3 py-1 rounded-full bg-blue-900/40 text-white text-xs sm:text-sm"
           >Git</span
         >
         <span
-          class="px-4 py-1 rounded-full bg-pink-900/40 text-pink-300 text-sm"
+          class="px-3 py-1 rounded-full bg-blue-900/40 text-white text-xs sm:text-sm"
           >Angular</span
         >
         <span
-          class="px-4 py-1 rounded-full bg-pink-900/40 text-pink-300 text-sm"
+          class="px-3 py-1 rounded-full bg-blue-900/40 text-white text-xs sm:text-sm"
           >Bootstrap</span
         >
       </div>

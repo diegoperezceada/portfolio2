@@ -28,7 +28,7 @@ import {
   Landmark,
   GraduationCap,
   Linkedin,
-  Github
+  Github,
 } from 'lucide-angular';
 
 export const appConfig: ApplicationConfig = {

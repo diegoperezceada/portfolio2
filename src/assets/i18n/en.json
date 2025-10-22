@@ -24,11 +24,11 @@
     "TITLE_PREFIX": "Passion for",
     "TITLE_HIGHLIGHT": "Innovation",
     "MY_STORY_TITLE": "My Story",
-    "MY_STORY_TEXT": "My journey began at the prestigious <span class='text-purple-400 font-semibold'>Immune Technology Institute</span>, where I developed a solid foundation in modern technologies. Since then, I have evolved through enriching experiences at <span class='text-blue-400 font-semibold'>Hertcode</span>, <span class='text-green-400 font-semibold'>Santander</span>, and currently at <span class='text-pink-400 font-semibold'>Mapfre</span>.",
+    "MY_STORY_TEXT": "My journey began at the prestigious <span class='text-blue-400 font-semibold'>Immune Technology Institute</span>, where I developed a solid foundation in modern technologies. Since then, I have evolved through enriching experiences at <span class='text-blue-300 font-semibold'>Hertcode</span>, <span class='text-red-400 font-semibold'>Santander</span>, and currently at <span class='text-pink-700 font-semibold'>Mapfre</span>.",
     "STATS_YEARS": "Years of Experience",
     "STATS_PROJECTS": "Projects Completed",
     "STATS_TECHNOLOGIES": "Technologies Mastered",
-    "STATS_DEDICATION": "Gaming",
+    "STATS_DEDICATION": "Dedication",
     "MY_APPROACH_TITLE": "My Approach",
     "MY_APPROACH_TEXT": "I combine design and code to create digital solutions that not only work flawlessly, but also deliver a smooth, engaging experience with real value for those who use them every day."
   },
@@ -103,6 +103,52 @@
     "COMING_SOON": {
       "TITLE": "More certifications coming soon",
       "DESCRIPTION": "Currently preparing new professional certifications"
+    }
+  },
+
+  "SKILLS": {
+    "TITLE_PREFIX": "My",
+    "TITLE_HIGHLIGHT": "Skills",
+    "DESCRIPTION": "Technologies and tools I use daily to design, develop, and deploy modern and scalable solutions.",
+    "ANGULAR": {
+      "TITLE": "Angular",
+      "DESCRIPTION": "Development of SPA applications using TypeScript and modular architecture."
+    },
+    "TYPESCRIPT": {
+      "TITLE": "TypeScript",
+      "DESCRIPTION": "Static typing and advanced patterns for maintainable code."
+    },
+    "AWS": {
+      "TITLE": "AWS",
+      "DESCRIPTION": "Experience with Lambda, DynamoDB, API Gateway, and CDK."
+    },
+    "JAVA": {
+      "TITLE": "Java",
+      "DESCRIPTION": "Object-oriented programming and REST API development."
+    },
+    "PYTHON": {
+      "TITLE": "Python",
+      "DESCRIPTION": "Automation, backend scripting, and PDF generation in AWS Lambda."
+    }
+  },
+  
+  "CONTACT": {
+    "TITLE_PREFIX": "Get in",
+    "TITLE_HIGHLIGHT": "Touch",
+    "DESCRIPTION": "If you’d like to talk about projects, opportunities, or simply say hello, don’t hesitate to reach out.",
+    "FORM": {
+      "NAME_LABEL": "Name",
+      "NAME_PLACEHOLDER": "Your name",
+      "EMAIL_LABEL": "Email",
+      "EMAIL_PLACEHOLDER": "youremail@example.com",
+      "MESSAGE_LABEL": "Message",
+      "MESSAGE_PLACEHOLDER": "Write your message...",
+      "BUTTON": "Send message"
+    },
+    "INFO": {
+      "EMAIL_TITLE": "Email",
+      "PHONE_TITLE": "Phone",
+      "LOCATION_TITLE": "Location"
     }
   }
 }

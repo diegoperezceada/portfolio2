@@ -1,27 +1,58 @@
-# Portfolio2
+# 🌐 Diego Portfolio
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.2.2.
+![Angular](https://img.shields.io/badge/Angular-17-DD0031?style=for-the-badge&logo=angular&logoColor=white)
+![TailwindCSS](https://img.shields.io/badge/TailwindCSS-v4-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-5.5-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
 
-## Development server
+> 🚀 Un portfolio moderno, minimalista y responsivo desarrollado con **Angular 17** y **Tailwind v4**, diseñado para reflejar mi estilo, mis proyectos y mi enfoque profesional como ingeniero de software.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+---
 
-## Code scaffolding
+## 🖥️ Demo
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+🌍 **Live:** [https://tu-dominio.com](https://tu-dominio.com)  
+📦 **Repositorio:** [https://github.com/tuusuario/portfolio](https://github.com/tuusuario/portfolio)
 
-## Build
+---
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## ✨ Características principales
 
-## Running unit tests
+- ⚡ **Angular 17 standalone** — sin módulos, con routing dinámico.
+- 🎨 **Tailwind CSS v4** — diseño limpio y totalmente responsive.
+- 💡 **Animaciones suaves** con Framer Motion y utilidades CSS.
+- 🧩 **Componentes reutilizables** para proyectos, experiencia y contacto.
+- 🌗 **Modo claro/oscuro** persistente.
+- 🧭 **Scroll animado** entre secciones (Inicio, Sobre mí, Proyectos, Contacto).
+- 📱 **Optimización SEO** y PWA ready.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+---
 
-## Running end-to-end tests
+## 🧰 Stack tecnológico
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+| Categoría   | Herramienta                                     |
+| ----------- | ----------------------------------------------- |
+| Framework   | [Angular 17](https://angular.dev/)              |
+| Estilos     | [TailwindCSS v4](https://tailwindcss.com/)      |
+| Lenguaje    | [TypeScript](https://www.typescriptlang.org/)   |
+| Animaciones | [Framer Motion](https://www.framer.com/motion/) |
+| Iconografía | [Lucide Icons](https://lucide.dev/icons/)       |
+| Despliegue  | [Vercel](https://vercel.com/)                   |
 
-## Further help
+---
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## ⚙️ Instalación y uso
+
+```bash
+# 1️⃣ Clonar el repositorio
+git clone https://github.com/diegoperezceada/portfolio_diego.git
+cd portfolio
+
+# 2️⃣ Instalar dependencias
+npm install
+
+# 3️⃣ Iniciar servidor local
+npm start
+
+# 4️⃣ Abrir en el navegador
+http://localhost:4200/
+```

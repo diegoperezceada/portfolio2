@@ -2,18 +2,20 @@
   <!-- Encabezado -->
   <div class="text-center mb-20">
     <h2 class="text-4xl md:text-7xl font-extrabold leading-tight">
-      Mis
+      {{ "SKILLS.TITLE_PREFIX" | translate }}
       <span
         class="bg-gradient-to-r from-orange-400 to-pink-500 bg-clip-text text-transparent"
-        >Skills</span
       >
+        {{ "SKILLS.TITLE_HIGHLIGHT" | translate }}
+      </span>
     </h2>
+
     <div
       class="mt-6 w-32 h-1.5 bg-gradient-to-r from-orange-400 to-pink-500 mx-auto rounded-full"
     ></div>
+
     <p class="text-white/60 mt-6 max-w-2xl mx-auto">
-      Tecnologías y herramientas con las que trabajo a diario para diseñar,
-      desarrollar y desplegar soluciones modernas y escalables.
+      {{ "SKILLS.DESCRIPTION" | translate }}
     </p>
   </div>
 
@@ -43,11 +45,12 @@
             d="M125,30l-73,161h27l14-33h65l14,33h27L125,30z M143,131H107l18-41L143,131z"
           />
         </svg>
-        <span class="text-white font-semibold"></span>
       </div>
-      <h3 class="text-xl font-semibold mb-2">Angular</h3>
+      <h3 class="text-xl font-semibold mb-2">
+        {{ "SKILLS.ANGULAR.TITLE" | translate }}
+      </h3>
       <p class="text-white/60 text-center text-sm">
-        Desarrollo de aplicaciones SPA con TypeScript y arquitectura modular.
+        {{ "SKILLS.ANGULAR.DESCRIPTION" | translate }}
       </p>
     </div>
 
@@ -62,21 +65,26 @@
           class="w-15 h-15"
         />
       </div>
-      <h3 class="text-xl font-semibold mb-2">TypeScript</h3>
+      <h3 class="text-xl font-semibold mb-2">
+        {{ "SKILLS.TYPESCRIPT.TITLE" | translate }}
+      </h3>
       <p class="text-white/60 text-center text-sm">
-        Tipado estático y patrones avanzados para código mantenible.
+        {{ "SKILLS.TYPESCRIPT.DESCRIPTION" | translate }}
       </p>
     </div>
+
     <!-- AWS -->
     <div
       class="flex flex-col items-center justify-center p-8 rounded-3xl bg-white/5 border border-white/10 backdrop-blur-md hover:bg-white/10 transition-all duration-300 hover:scale-[1.03] hover:shadow-2xl hover:shadow-purple-500/20"
     >
       <div class="flex items-center justify-center w-16 h-16 rounded-2xl mb-4">
-        <img src="assets/img/aws.svg" alt="java" class="w-20 h-20" />
+        <img src="assets/img/aws.svg" alt="AWS" class="w-20 h-20" />
       </div>
-      <h3 class="text-xl font-semibold mb-2">AWS</h3>
+      <h3 class="text-xl font-semibold mb-2">
+        {{ "SKILLS.AWS.TITLE" | translate }}
+      </h3>
       <p class="text-white/60 text-center text-sm">
-        Experiencia con Lambda, DynamoDB, API Gateway y CDK.
+        {{ "SKILLS.AWS.DESCRIPTION" | translate }}
       </p>
     </div>
 
@@ -84,14 +92,14 @@
     <div
       class="flex flex-col items-center justify-center p-8 rounded-3xl bg-white/5 border border-white/10 backdrop-blur-md hover:bg-white/10 transition-all duration-300 hover:scale-[1.03] hover:shadow-2xl hover:shadow-purple-500/20"
     >
-      <div
-        class="flex items-center justify-center w-16 h-16 rounded-2xl bg-gradient-to-b mb-4"
-      >
-        <img src="assets/img/java.svg" alt="java" class="w-20 h-20" />
+      <div class="flex items-center justify-center w-16 h-16 rounded-2xl mb-4">
+        <img src="assets/img/java.svg" alt="Java" class="w-20 h-20" />
       </div>
-      <h3 class="text-xl font-semibold mb-2">Java</h3>
+      <h3 class="text-xl font-semibold mb-2">
+        {{ "SKILLS.JAVA.TITLE" | translate }}
+      </h3>
       <p class="text-white/60 text-center text-sm">
-        Programación orientada a objetos y desarrollo de APIs REST.
+        {{ "SKILLS.JAVA.DESCRIPTION" | translate }}
       </p>
     </div>
 
@@ -100,11 +108,13 @@
       class="flex flex-col items-center justify-center p-8 rounded-3xl bg-white/5 border border-white/10 backdrop-blur-md hover:bg-white/10 transition-all duration-300 hover:scale-[1.03] hover:shadow-2xl hover:shadow-purple-500/20"
     >
       <div class="flex items-center justify-center w-16 h-16 rounded-2xl mb-4">
-        <img src="assets/img/python.svg" alt="java" class="w-20 h-20" />
+        <img src="assets/img/python.svg" alt="Python" class="w-20 h-20" />
       </div>
-      <h3 class="text-xl font-semibold mb-2">Python</h3>
+      <h3 class="text-xl font-semibold mb-2">
+        {{ "SKILLS.PYTHON.TITLE" | translate }}
+      </h3>
       <p class="text-white/60 text-center text-sm">
-        Automatización, scripts de backend y generación de PDFs en AWS Lambda.
+        {{ "SKILLS.PYTHON.DESCRIPTION" | translate }}
       </p>
     </div>
   </div>

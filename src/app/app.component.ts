@@ -26,7 +26,6 @@ import { SkillsComponent } from "./components/skills/skills.component";
   styleUrls: ['./app.component.css'],
 })
 export class AppComponent {
-  title = 'portfolio';
 
   constructor(private readonly translate: TranslateService) {
     // Configuración inicial de idiomas

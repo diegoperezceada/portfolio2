@@ -90,6 +90,15 @@ export class HeaderComponent implements OnInit, AfterViewInit, OnDestroy {
     if (!this.isBrowser) return;
 
     const scrollPosition = window.scrollY + 100;
+    const windowHeight = window.innerHeight;
+    const bodyHeight = document.body.clientHeight;
+    const isAtBottom = window.scrollY + windowHeight >= bodyHeight - 5;
+
+    // If we're at the bottom of the page, activate the last section (contact)
+    if (isAtBottom) {
+      this.activeSection = this.sections[this.sections.length - 1].id;
+      return;
+    }
 
     for (const section of this.sections) {
       const element = document.getElementById(section.id);

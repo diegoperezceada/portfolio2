@@ -1,7 +1,6 @@
 <section id="education" class="max-w-7xl mx-auto px-6 py-28 text-white">
   <!-- Encabezado -->
   <div class="text-center mb-20">
-    
     <h2 class="text-4xl md:text-7xl font-extrabold leading-tight">
       {{ "EDUCATION.TITLE_PREFIX" | translate }}
       <span
@@ -14,10 +13,12 @@
     ></div>
   </div>
 
-  <div class="grid md:grid-cols-2 gap-12">
-    <div
-      class="bg-white/5 p-10 shadow-2xl backdrop-blur-md border border-white/10 rounded-3xl md:col-span-2 hover:bg-white/10 transition-all duration-300 hover:scale-[1.02] hover:shadow-2xl hover:shadow-purple-500/20"
-    >
+  <!-- Tarjeta principal -->
+  <div
+    class="bg-white/5 p-10 shadow-2xl backdrop-blur-md border border-white/10 rounded-3xl hover:bg-white/10 transition-all duration-300 hover:scale-[1.02] hover:shadow-2xl hover:shadow-purple-500/20"
+  >
+    <!-- Grid adaptativo -->
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
       <!-- Columna izquierda -->
       <div>
         <div class="flex items-start gap-4 mb-6">
@@ -27,101 +28,102 @@
             <lucide-icon name="graduation-cap"></lucide-icon>
           </div>
           <div>
-            <h3 class="text-3xl font-bold text">
+            <h3 class="text-2xl md:text-3xl font-bold leading-tight">
               {{ "EDUCATION.IMMUNE.INSTITUTION" | translate }}
             </h3>
-            <p class="text-lg text-blue-400 font-semibold">
+            <p class="text-base md:text-lg text-blue-400 font-semibold">
               {{ "EDUCATION.IMMUNE.DEGREE" | translate }}
             </p>
             <p class="flex items-center text-white/60 text-sm mt-2">
-              <span class="mr-2">📅</span
-              >{{ "EDUCATION.IMMUNE.PERIOD" | translate }}
+              <span class="mr-2">📅</span>
+              {{ "EDUCATION.IMMUNE.PERIOD" | translate }}
             </p>
           </div>
         </div>
 
-        <p class="text-white/80 mb-6">
+        <p class="text-white/80 mb-6 text-sm md:text-base leading-relaxed">
           {{ "EDUCATION.IMMUNE.DESCRIPTION" | translate }}
         </p>
 
-        <button
-          class="inline-flex m-4 items-center px-6 py-3 rounded-full bg-blue-400 hover:bg-blue-600 text-white font-semibold transition-colors duration-300"
-        >
+        <div class="flex justify-center md:justify-start">
           <a
             target="_blank"
             href="https://www.credential.net/8a30f348-8f97-4422-bfa8-7d1cb5cb42ab#acc.rvWeCjX2"
+            class="inline-flex items-center px-6 py-3 rounded-full bg-blue-400 hover:bg-blue-600 text-white font-semibold transition-colors duration-300"
           >
             {{ "EDUCATION.IMMUNE.CERTIFICATE_BTN" | translate }}
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="w-5 h-5 ml-2"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M17 8l4 4m0 0l-4 4m4-4H3"
+              />
+            </svg>
           </a>
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            class="w-5 h-5 ml-2"
-            fill="none"
-            viewBox="0 0 24 24"
-            stroke="currentColor"
-          >
-            <path
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-width="2"
-              d="M17 8l4 4m0 0l-4 4m4-4H3"
-            />
-          </svg>
-        </button>
+        </div>
       </div>
 
       <!-- Columna derecha: áreas de conocimiento -->
-      <div class="grid grid-cols-2 gap-6">
-        <div
-          class="flex flex-col items-center p-6 bg-white/5 rounded-xl border border-white/10"
-        >
+      <div class="flex justify-center md:justify-end">
+        <div class="grid grid-cols-2 gap-6 max-w-md">
           <div
-            class="flex items-center justify-center w-12 h-12 rounded-xl bg-gradient-to-r from-blue-400 to-cyan-500 mb-3"
+            class="flex flex-col items-center p-6 bg-white/5 rounded-xl border border-white/10 hover:bg-white/10 transition-all"
           >
-            <lucide-icon name="globe"></lucide-icon>
+            <div
+              class="flex items-center justify-center w-12 h-12 rounded-xl bg-gradient-to-r from-blue-400 to-cyan-500 mb-3"
+            >
+              <lucide-icon name="globe"></lucide-icon>
+            </div>
+            <p class="text-lg font-medium text-center">
+              {{ "EDUCATION.AREAS.WEB" | translate }}
+            </p>
           </div>
-          <p class="text-lg font-medium">
-            {{ "EDUCATION.AREAS.WEB" | translate }}
-          </p>
-        </div>
 
-        <div
-          class="flex flex-col items-center p-6 bg-white/5 rounded-xl border border-white/10"
-        >
           <div
-            class="flex items-center justify-center w-12 h-12 rounded-xl bg-gradient-to-r from-green-400 to-emerald-500 mb-3"
+            class="flex flex-col items-center p-6 bg-white/5 rounded-xl border border-white/10 hover:bg-white/10 transition-all"
           >
-            <lucide-icon name="database"></lucide-icon>
+            <div
+              class="flex items-center justify-center w-12 h-12 rounded-xl bg-gradient-to-r from-green-400 to-emerald-500 mb-3"
+            >
+              <lucide-icon name="database"></lucide-icon>
+            </div>
+            <p class="text-lg font-medium text-center">
+              {{ "EDUCATION.AREAS.DATABASE" | translate }}
+            </p>
           </div>
-          <p class="text-lg font-medium">
-            {{ "EDUCATION.AREAS.DATABASE" | translate }}
-          </p>
-        </div>
 
-        <div
-          class="flex flex-col items-center p-6 bg-white/5 rounded-xl border border-white/10"
-        >
           <div
-            class="flex items-center justify-center w-12 h-12 rounded-xl bg-gradient-to-r from-pink-400 to-purple-500 mb-3"
+            class="flex flex-col items-center p-6 bg-white/5 rounded-xl border border-white/10 hover:bg-white/10 transition-all"
           >
-            <lucide-icon name="smartphone"></lucide-icon>
+            <div
+              class="flex items-center justify-center w-12 h-12 rounded-xl bg-gradient-to-r from-pink-400 to-purple-500 mb-3"
+            >
+              <lucide-icon name="smartphone"></lucide-icon>
+            </div>
+            <p class="text-lg font-medium text-center">
+              {{ "EDUCATION.AREAS.MOBILE" | translate }}
+            </p>
           </div>
-          <p class="text-lg font-medium">
-            {{ "EDUCATION.AREAS.MOBILE" | translate }}
-          </p>
-        </div>
 
-        <div
-          class="flex flex-col items-center p-6 bg-white/5 rounded-xl border border-white/10"
-        >
           <div
-            class="flex items-center justify-center w-12 h-12 rounded-xl bg-gradient-to-r from-orange-400 to-red-500 mb-3"
+            class="flex flex-col items-center p-6 bg-white/5 rounded-xl border border-white/10 hover:bg-white/10 transition-all"
           >
-            <lucide-icon name="cloud"></lucide-icon>
+            <div
+              class="flex items-center justify-center w-12 h-12 rounded-xl bg-gradient-to-r from-orange-400 to-red-500 mb-3"
+            >
+              <lucide-icon name="cloud"></lucide-icon>
+            </div>
+            <p class="text-lg font-medium text-center">
+              {{ "EDUCATION.AREAS.CLOUD" | translate }}
+            </p>
           </div>
-          <p class="text-lg font-medium">
-            {{ "EDUCATION.AREAS.CLOUD" | translate }}
-          </p>
         </div>
       </div>
     </div>
